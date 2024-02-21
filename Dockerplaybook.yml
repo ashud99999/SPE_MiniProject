@@ -8,7 +8,7 @@
         chdir: /var/lib/jenkins/workspace/SPE_MiniProject
 
     - name: tag image
-      command: docker tag calculator.jar Calci/calculator:latest
+      command: docker tag calculator.jar ashutoshd99/calculator:latest
 
     - name: Log in to Docker Hub
       community.docker.docker_login:
@@ -17,4 +17,4 @@
         password: asdfrtqwe
 
     - name: push image
-      command: docker push Calci/calculator:latest
+      command: docker push ashutoshd99/calculator:latest
