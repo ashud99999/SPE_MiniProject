@@ -1,10 +1,10 @@
 package org.example;
-import com.example.Main;
+import org.example.Main;
 import org.junit.Test;
 import static org.junit.Assert.*;
 
 
-public class MainTest {
+public class Maintest {
 
 
     // You can add more test cases based on your requirements
