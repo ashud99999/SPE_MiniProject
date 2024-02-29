@@ -5,7 +5,7 @@
     - name: Build Docker Image
       command: docker build -t calculator.jar .
       args:
-        chdir: /var/lib/jenkins/workspace/calci
+        chdir: /var/lib/jenkins/workspace/Calci
 
     - name: tag image
       command: docker tag calculator.jar ashutoshd99/calculator:latest
